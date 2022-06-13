@@ -14,8 +14,8 @@ public class KakaoRest {
 
     @RequestMapping(method = RequestMethod.POST, headers = {"Accept=application/json"})
     public String callAPI(@RequestBody Map<String, Object> params){
-
         try{
+
             ObjectMapper mapper = new ObjectMapper();
             String jsonInString = mapper.writeValueAsString(params);
             int x = 0;

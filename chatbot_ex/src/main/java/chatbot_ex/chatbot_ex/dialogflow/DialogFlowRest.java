@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.Map;
 
 
-@RestController
+// @RestController
 @RequestMapping("/orchid/api")
 public class DialogFlowRest {
 

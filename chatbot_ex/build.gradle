@@ -27,6 +27,12 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation platform('com.google.cloud:libraries-bom:25.4.0')
+	implementation 'com.google.cloud:google-cloud-dialogflow'
+	implementation 'com.google.cloud:google-cloud-dialogflow:2.0.0'
+	implementation 'com.google.cloud:google-cloud-storage:1.106.0'
+
+
 }
 
 tasks.named('test') {
